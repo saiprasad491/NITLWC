@@ -1,0 +1,8 @@
+<template>
+    <lightning-card title="Event Example" icon-name="standard:brand" >
+      <lightning-button label="Get Label" variant="success" onclick={handleLabelClick} ></lightning-button>
+      <p> Button Clicked : <strong>{label}</strong> </p>
+      <lightning-button label="Get Value" variant="destructive" value="I am a button." onclick={handleValueClick} ></lightning-button>
+      <p> Value of the button : <strong> {val} </strong> </p>
+    </lightning-card>
+</template>
